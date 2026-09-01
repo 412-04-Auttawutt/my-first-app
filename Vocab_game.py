@@ -91,19 +91,19 @@ if "start" in st.session_state and not st.session_state.get("is_ended", False):
 st.divider()
 
 # 3. ช่องรับคำตอบ (ใช้ value ผูกกับตัวแปรตรงๆ เพื่อสั่งเคลียร์ได้)
-ans1 = st.text_input(
+ans1 = st.text_input (
     "ข้อ 1: An `a _ _ l e` a day keeps the doctor away. 🍎",
     value=st.session_state.ans1_val,
 )
-ans2 = st.text_input(
+ans2 = st.text_input (
     "ข้อ 2: Cats love to eat `f _ s h`. 🐟",
     value=st.session_state.ans2_val,
 )
-ans3 = st.text_input(
+ans3 = st.text_input (
     "ข้อ 3: I brought my `L _ p t _ p` to school. 💻 ",
     value=st.session_state.ans3_val,
 )
-ans4 = st.text_input(
+ans4 = st.text_input (
     "ข้อ 4: I have to bring an `a _ _ c a _ _` for my biology class experiment. 🥑",
     value=st.session_state.ans4_val,
 # อัปเดตค่าล่าสุดเข้าตัวแปร
