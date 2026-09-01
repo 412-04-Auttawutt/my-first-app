@@ -100,7 +100,7 @@ ans2 = st.text_input(
     value=st.session_state.ans2_val,
 )
 ans3 = st.text_input(
-    "ข้อ 3: I brought my `L _ p t _ p` to school. 💻 ",
+    "ข้อ 3: I brought my `l _ p t _ p` to school. 💻 ",
     value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
